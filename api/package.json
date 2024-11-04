@@ -19,10 +19,13 @@
     "drizzle-orm": "^0.35.3",
     "drizzle-zod": "^0.5.1",
     "express": "^4.21.1",
+    "loadash": "^1.0.0",
+    "lodash": "^4.17.21",
     "pg": "^8.13.1"
   },
   "devDependencies": {
     "@types/express": "^5.0.0",
+    "@types/lodash": "^4.17.13",
     "@types/pg": "^8.11.10",
     "drizzle-kit": "^0.26.2",
     "tsx": "^4.19.2",
