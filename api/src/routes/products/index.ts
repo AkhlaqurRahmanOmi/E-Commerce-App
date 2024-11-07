@@ -6,14 +6,14 @@ import {
   createProduct,
   updateProduct,
   deleteProduct,
-} from "./Controller";
-import { validateData } from "../../middlewares/validationMiddleware";
+} from "./Controller.js";
+import { validateData } from "../../middlewares/validationMiddleware.js";
 import {
   createProductSchema,
   productsTable,
   updateProductSchema,
-} from "../../db/ProductSchema";
-import { verifySeller, verifyToken } from "../../middlewares/authMiddleware";
+} from "../../db/ProductSchema.js";
+import { verifySeller, verifyToken } from "../../middlewares/authMiddleware.js";
 
 // type ProductType = z.infer<typeof createProductSchema>;
 // product endpoint

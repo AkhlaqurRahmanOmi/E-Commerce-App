@@ -1,3 +1,3 @@
-import * as productSchema from './ProductSchema'
+import * as productSchema from './ProductSchema.js'
 
 export default{...productSchema}
