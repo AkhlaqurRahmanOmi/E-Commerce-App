@@ -15,6 +15,13 @@
       "when": 1730892905128,
       "tag": "0001_robust_sandman",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1731020107486,
+      "tag": "0002_vengeful_killmonger",
+      "breakpoints": true
     }
   ]
 }
