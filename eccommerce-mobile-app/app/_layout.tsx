@@ -1,7 +1,12 @@
 import { Slot, Stack, Tabs } from "expo-router";
 
+import {tamaguiConfig} from '../tamagui.config'
+import { TamaguiProvider } from "tamagui";
+
 export default function RootLayout () {
     return(
-        <Stack/>
+        <TamaguiProvider config={tamaguiConfig}>
+            <Stack/>
+        </TamaguiProvider>
     )
 }
